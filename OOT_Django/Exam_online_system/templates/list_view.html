@@ -1,0 +1,15 @@
+
+<h1>June Exams <h1/>
+<body>
+<small>
+ 
+    {% for data in dataset %}.
+ 
+    Course Name:{{ data.name }}<br/>
+    Course code{{ data.Course }}<br/>
+	# of students:{{ data.Student }}<br/>
+    <hr/>
+ 
+    {% endfor %}
+<small/>
+ <body/>
